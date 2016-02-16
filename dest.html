@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surf Tour Company - Destinations</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/mystyles.css" >
+
+</head>
+
+<body>
+  <nav role="navigation" class="navbar">
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-center" href="/"><img class="logo" src="img/logocut.jpg">Surf Tour Company</a>
+    </div>
+    
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav nav-pills navbar-right">
+            <li role=""><a href="/">Home</a></li>
+            <li role=""><a href="triptypes.html">Trip Types</a></li>
+            <li role="" class="active"><a href="dest.html">Destinations</a></li>
+            <li><button class="btn btn-primary center-block booking" data-toggle="modal" data-target="#txtModal">Booking Inquiry</button></li>
+        </ul> 
+    </div>
+  </nav>
+
+  <!-- Modal Window -->
+  <div class="modal fade" id="txtModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Let's get you out there!</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="InputDest">Ideal Surfing Destination?</label>
+              <textarea class="form-control" rows="3" placeholder="Destination"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container intro">
+    <blockquote>
+      <h3>"You can't stop the waves, but you can learn to surf."</h3>
+      <h3 class="text-right">-John Kabat-Zinn</h3>
+    </blockquote>
+  </div>
+
+    
+  <!-- Spread -->
+
+  <div class="topspread parallax">
+  </div>
+
+
+  <div class="container dest">
+    <h3>Our favorites:</h3>
+    <div class="row vertical-break">
+      
+      <div class="col-xs-6 col-sm-4 vertical-break">
+        <img src="img/bali.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>Bali, Indonesia</h4>
+        <p>Bali has to be in the top three surf beaches, but it’s a hard task deciding which break on this paradise island takes the crown. The island attracts the gnarliest surfers from Australia and Hawaii plus beginners from across the globe.</p>      
+      </div>
+
+      <div class="col-xs-6 col-sm-4 vertical-break">
+        <img src="img/goldcoast.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>Gold Coast, Australia</h4>
+        <p>Another of the world’s finest breaks, you may well have the ride of your life on this section, which will produce tubes and solid walls. By all means fill your boots, but save some energy for the two-kilometer walk along the beach back to your car.</p>      
+      </div>
+
+      <div class="col-xs-6 col-sm-4 vertical-break">
+        <img src="img/maldives.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>North Male, Maldives</h4>
+        <p>A consistent reef wave that’s absolutely pumping in the spring. The rocks here can be hazardous but if you go with a live-aboard outfit such a Surfatoll.com, you’ll be in good hands.</p>      
+      </div>
+    
+      <div class="clearfix visible-lg-block visible-md-block visible-sm-block"></div>
+      
+      <div class="col-xs-6 col-sm-4 vertical-break">
+        <img src="img/lima.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>Lima, Peru</h4>
+        <p>Although the pebbled beach and gray water doesn’t look entirely appealing, the range of surf along this coastline is second to none. Waves range from a meter and up, and at the pier waves break in three sections; large, medium and small.</p> 
+      </div>
+
+      <div class="col-xs-6 col-sm-4 vertical-break">
+        <img src="img/nz.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>Raglan, New Zealand</h4>
+        <p>Made famous in the 1960s when it was the location for the cult surf flick "Endless Summer", atmosphere is key at this sleepy town. Head down to Manu, which works from one meter to about three (and offers the occasional barrel if you’re lucky).</p>          
+      </div>
+        
+      <div class="col-xs-6 col-sm-4 vertical-break">
+        <img src="img/montanita.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>Montanita, Ecuador</h4>
+        <p>Not many travelers make it to, or even know about, this spot on the west coast of Ecuador.  There are only 1,000 locals in Montanita and they’re among the friendliest bunch of surfers we’ve met in a surf spot.</p>      
+      </div>
+
+      <div class="clearfix visible-xs-block visible-md-block visible-sm-block visible-lg-block"></div>
+      
+      <div class="col-xs-6 col-sm-4 vertical-break">      
+        <img src="img/Jbay.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>Jeffrey’s Bay, South Africa</h4>
+        <p>J Bay offers long fast barrels off this intense point break and has plenty of choices, expert surfers flock here for rides up to 300 meters long.</p>
+      </div>
+
+      <div class="col-xs-6 col-sm-4 vertical-break">
+        <img src="img/hossegor.jpg" class="img-responsive center-block img-thumbnail">
+        <h4>Hossegor, France</h4>
+        <p>Located on the Atlantic, this expert surfing spot has been dubbed the "surfing capital of Europe," so naturally the rich and the famous have mansions and holiday homes near the beach.</p>
+      </div> 
+    </div>
+   </div>
+  </div>
+    
+  <div id="contact">
+    <div class="container" >
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <h3 class="">Get Connected</h3>
+          <p>Say hello and tell us your surfing vision</p>
+          <address class="light"><a href="https://www.google.com/maps/dir/''/520+W+Ash+St,+San+Diego,+CA+92101/@32.72002,-117.1698511,15z/" target="_blank">520 W Ash St.<br>San Diego, CA 92101</a></address>
+          <a class="" href="tel:6196663333">619.666.3333</a>
+        </div>
+      
+        <div class="col-sm-4 socialMedia">
+          <h3 class="">follow us</h3>
+          <p class="">Keep up to date on events and deals</p>
+          <ul>
+            <li><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png"></a></li>
+            <li><a href="http://www.twitter.com" target="_blank"><img src="img/twitter.png"></a></li>
+            <li><a href="http://www.youtube.com" target="_blank"><img src="img/youtube.png"></a></li>
+            <li><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png"></a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4">
+          <h3 class="">Jump In</h3>
+          <p class="">If surfing is in your DNA, let's get started with your big adventure.</p>
+          <p><a href="mailto://info@surfworld.com">INFO@SURFWORLD.COM</a></p>
+        </div>
+      </div>
+      <p class="text-center">© The Surf Travel Company 2016</p> 
+    </div>
+  </div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+</body>
+</html>
