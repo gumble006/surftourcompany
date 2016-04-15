@@ -1,0 +1,253 @@
+/**************************************
+COLORS
+**************************************/
+
+::selection 					{background: #0081C6;}
+
+.intro h3 						{color: #343434;}
+
+#contact a:hover 				{color: black;}
+
+#contact 						{color: white;}
+
+#contact img 					{background-color: white}
+
+#contact img:hover  			{border: solid 2px #425968}
+
+// Nav
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover 	{color: white;
+    							 background-color: #0081C6;}
+
+.icon-bar 						{background:#343434;}
+
+.navbar-toggle 					{border: 1px solid #343434;}
+
+button.btn.booking				{background-image: linear-gradient(to bottom,#0081C6 0,#265a88 100%)}
+
+
+.spread h3 						{color: #fff;
+								 text-shadow: 1px 1px #343434;}
+
+.featured em 					{color: rgb(153,153,153);}
+
+
+/**************************************
+GENERAL LAYOUT
+**************************************/
+
+body {
+	padding-top: 10px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+h4 {
+	line-height: 1.5;
+}
+
+.intro h3 {
+	font-size: 1.0em;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+div.intro {
+	padding: 20px;
+	max-width: 700px;
+}
+
+.container {
+	max-width: 1100px;
+}
+
+.vertical-break {
+	margin-top: 0px;
+	margin-bottom: 35px;
+}
+
+
+/***** Contact section *****/
+
+#contact {
+    background: url("../img/contact.png") center center no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+div#contact .col-sm-4 {
+	margin-bottom: 45px;
+}
+
+div#contact h3 {
+	text-transform: uppercase;
+}
+
+#contact img {
+	max-width: 40px;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+
+#contact li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 0;
+}
+
+#contact ul {
+	padding-left: 0;
+}
+
+
+/**************************************
+NAVIGATION
+**************************************/
+
+.nav>li>a {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+a.navbar-brand {
+	font-size: 1.6em;
+}
+
+.logo {
+	max-height: 29px;
+    margin-top: -6px;
+	float: left;
+}
+
+button.btn.booking {
+	margin-left: 30px;
+	
+}
+
+/**************************************
+PAGE: HOME
+**************************************/
+
+.spread {
+	max-height: 880px;
+	width: 100%;
+	position: relative;
+}
+
+.spread h3 {
+	position: absolute;
+    margin: auto;
+    top: 50%;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 99;
+}
+
+.featured > .row {
+	margin: -10px;
+}
+
+
+/**************************************
+PAGE: TRIP TYPES
+**************************************/
+
+#typetext {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 1.3em;
+}
+
+.types h3 {
+	margin-top: 0;
+}
+
+div.split {
+	max-width: 50%;
+	height: auto;
+}
+
+.split-container {
+	max-width: 1400px;
+    margin: 0 auto;
+}
+    
+
+
+
+/**************************************
+PAGE: DESTINATIONS
+**************************************/
+
+.fill {
+	height: 1000px;
+}
+
+.types img {
+	width: 300px;
+}
+
+.dest img {
+	min-height: 150px;
+}
+
+div.topspread {
+	max-height: 350px;
+	min-height: 200px;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	background-image: url(../img/surf_53.jpg);
+	background-attachment: fixed;
+	background-position: 80%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.dest h3 {
+	margin-top: 0;
+}
+
+
+/**************************************
+MEDIA QUERIES
+**************************************/
+
+
+@media (min-width: 768px) {
+
+a.navbar-brand {
+	font-size: 1.8em;
+}
+
+.nav>li>a {
+	padding: 10px;
+	font-size: 1.1em;
+}
+
+.spread h3 {
+	font-size: 2.5em;
+}
+
+.logo {
+	max-height: 35px;
+    margin-top: -8px;
+	
+}
+
+button.btn.booking {
+	margin-left: 30px;
+}
+
+.row {
+	text-align: left;
+}
+
+}

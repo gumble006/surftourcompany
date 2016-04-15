@@ -112,16 +112,17 @@ NAVIGATION
 **************************************/
 
 .nav>li>a {
-	padding: 10px 10px;
+	padding: 5px;
 	margin-bottom: 10px;
 }
 
 a.navbar-brand {
-	font-size: 1.7em;
+	font-size: 1.6em;
 }
 
 .logo {
-	max-height: 22px;
+	max-height: 29px;
+    margin-top: -6px;
 	float: left;
 }
 
@@ -215,9 +216,24 @@ MEDIA QUERIES
 
 @media (min-width: 768px) {
 
-/*.booking {
-	float: right;
-}*/
+a.navbar-brand {
+	font-size: 1.8em;
+}
+
+.nav>li>a {
+	padding: 10px;
+	font-size: 1.1em;
+}
+
+.spread h3 {
+	font-size: 2.2em;
+}
+
+.logo {
+	max-height: 35px;
+    margin-top: -8px;
+	
+}
 
 button.btn.booking {
 	margin-left: 30px;
